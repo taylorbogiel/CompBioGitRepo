@@ -62,13 +62,13 @@ for ( i in 2:length(step5c)) {
 print(step5c)
 
 #lab step 6 - Fibonacci sequence
-F <- rep(0, 20)
-F[2] <- 1
+Fib <- rep(0, 20)
+Fib[2] <- 1
 #make a vector of the first 20 numbers where the first number is 0
-for (r in 3:length(F)) {
-  F[r] <- F[r - 2] + F[r - 1]
+for (r in 3:length(Fib)) {
+  Fib[r] <- Fib[r - 2] + Fib[r - 1]
 }
-print(F)
+print(Fib)
 
 #lab step 7 - redo lab step 4 
 #step 4 is on lines 25-39
