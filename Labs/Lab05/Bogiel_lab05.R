@@ -55,3 +55,61 @@ CO2Vec$Year[FirstGas]
 TotalEmissions200to300 <- which(CO2Vec$Total > 200 & CO2Vec$Total < 300)
 #gives the positions where the 200 > Total > 300
 CO2Vec$Year[TotalEmissions200to300]
+
+#Part 2
+# n[t] <- n[t - 1] + (r * n[t - 1]) - (a * n[t - 1] * p[t - 1])
+# p[t] <- p[t - 1] + (k * a * n[t - 1] * p[t - 1]) - (m * p[t - 1])
+#lab step 1 - set up parameter values
+totalGenerations <- 1000
+initPrey <- 100
+#initial prey abundance at time t = 1
+initPred <- 10
+#initial predator abundance at time t = 1
+a <- 0.01
+#attack rate
+r <- 0.2
+#growth rate of prey
+m <- 0.05
+#mortality rate of predators
+k <- 0.1
+#conversion constant of prey into predators
+
+#lab step 2 - create a "time" vector and 2 additional vectors to store results: one for the values of n over time, the other to store values of p
+time <- c(1:totalGenerations)
+n <- rep(initPrey, totalGenerations)
+p <- rep(initPred, totalGenerations)
+#remember to name vectors "n" and "p" rather than "nOverTime" and "pValues" to be consistent with formula in Lotka-Volterra model
+
+#lab step 3 - write a loop that implements the calculations
+for (t in 2:totalGenerations) {
+  n[t] <- n[t - 1] + (r * n[t - 1] - a * n[t - 1] * p[t - 1])
+  p[t] <- p[t - 1] + (k * a * n[t - 1] * p[t - 1] - (m * p[t - 1]))
+}
+
+#lab step 4 - add some if statements to check for negative numbers in each generation
+View(n)
+View(p)
+
+for (t in 2:totalGenerations) {
+  n[t] <- n[t - 1] + (r * n[t - 1] - a * n[t - 1] * p[t - 1])
+  p[t] <- p[t - 1] + (k * a * n[t - 1] * p[t - 1] - (m * p[t - 1]))
+  if (n[t] < 0){
+    n[t] = 0
+  }
+  if (p[t] < 0){
+    p[t] = 0
+  }
+}
+
+#lab step 5 - make a plot of the abundances  of prey and predators over time
+plot(time, n)
+lines(time, p)
+
+#lab step 6a - create a matrix of the results named "myResults" in which the first column is named "TimeStep", the second column is named "PreyAbundance", and the third column is named "PredatorAbundance"
+myResults <- cbind(time, n, p)
+colnames(myResults) <- c("TimeStep", "PreyAbundance", "PredAbundance")
+#colnames is a function for columns, rownames is the corresponding function for rows
+View(myResults)
+
+#lab step 6b - write this matrix to a csv in Lab05 working directory with the command write.csv(x = myResults, file = "PredPreyResults.csv")
+write.csv(x = myResults, file = "PredPreyResults.csv")
