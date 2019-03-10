@@ -1,1 +1,0 @@
-This repository will serve as a demonstration of the very first steps one takes when initializing and using git for version control.
