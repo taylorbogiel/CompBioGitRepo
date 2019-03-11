@@ -1,19 +1,19 @@
-#Lab08: Documentation and Metadata
+# Lab08: Documentation and Metadata
 
-##Objectives
+## Objectives
 1. Practice creating metadata files for your work
 2. Practice using Markdown
 
-##Step 1
-Complete the Markdown tutorial available at [http://www.markdowntutorial.com/](www.markdowntutorial.com).
+## Step 1
+Complete the Markdown tutorial available at [http://www.markdowntutorial.com/](http://www.markdowntutorial.com).
 
-##Step 2
+## Step 2
 Re-write the README for class repo in markdown.
 
-##Step 3
-###A:Create a new script for Lab08 using code from Lab04.
+## Step 3
+### A:Create a new script for Lab08 using code from Lab04.
 
-###B:Turn the logistic growth model code into a function with arguments (r, K).
+### B:Turn the logistic growth model code into a function with arguments (r, K).
 ```
 LogisticGrowthModel <- function(r, K, InitPop) {
   t <- 1:12
@@ -25,7 +25,7 @@ LogisticGrowthModel <- function(r, K, InitPop) {
 }
 ```
 
-###C:Add code to the function to produce a plot of abundance over time.
+### C:Add code to the function to produce a plot of abundance over time.
 ```
 LogisticGrowthModel <- function(r, K, InitPop, TotalGens) {
   n <- rep(InitPop, TotalGens)
@@ -38,13 +38,13 @@ LogisticGrowthModel <- function(r, K, InitPop, TotalGens) {
 }
 ```
 
-###D:Write a line of code that calls the function with your chosen parameter values.
+### D:Write a line of code that calls the function with your chosen parameter values.
 ```
 LogisticGrowthModel(0.5, 5000, 1500, 15)
 ```
 
-###E:Write a line of code that writes the data set to a file. The data file should have two columns: "Generations", "Abundance"
-####Create a matrix to properly display columns
+### E:Write a line of code that writes the data set to a file. The data file should have two columns: "Generations", "Abundance"
+#### Create a matrix to properly display columns
 ```
 LogisticGrowthModel <- function(r, K, InitPop, TotalGens) {
   n <- rep(InitPop, TotalGens)
@@ -63,7 +63,7 @@ LogisticGrowthModel <- function(r, K, InitPop, TotalGens) {
 write.csv(x = LogisticGrowthMatrix, file = "Bogiel_Lab08GrowthMatrix.csv")
 ```
 
-###F:Make a new [markdown](https://github.com/flaxmans/CompBio_on_git/blob/master/Labs/Lab08/Lab08_documentation_and_metadata.md) document explaining the script.
+### F:Make a new [markdown](https://github.com/flaxmans/CompBio_on_git/blob/master/Labs/Lab08/Lab08_documentation_and_metadata.md) document explaining the script.
 ![Logistic Growth Plot](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Labs/Lab08/LogisticGrowthPlot.PNG?raw=true)
 
  Make a new markdown document explaining the script.
