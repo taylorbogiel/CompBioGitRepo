@@ -1,0 +1,38 @@
+﻿# Homophily around specialized foraging underlies dolphin social preferences
+
+### Write a summary in your own words of: 
+#### a. The goals of the original study:
+*Hypothesis:* "Homophily around a specialized behavior—dolphins foraging with the assistance of artisanal fishermen—underlies social preferences and can structure animal populations."
+The intent of this study was to see how social structures could be determined based on foraging approaches. They intended to use social animals who would regularly work with fishermen casting nets, bottle nose dolphins in southern Brazil, to herd fish around in order to increase their chances of catching fish. By observing different foraging techniques and the social hierarchy within each group of dolphins, they could attempt to see the status of each individual and their role within the group.
+#### b. The methodology that the authors used to produce the data
+Initially they had to find groups of dolphins and attempt to create a photo-identification chart using pictures and recordings of the time, location, group size, behavioral state. Once this was done, more in depth identifications were used including identifying marks on the dorsal fin including lack of marking at all in calves. Some skin samples were collected in order to use molecular analyses and genotyping to determine sex and relatedness.
+Once groups were identifiable, they were assigned to behavioral contexts: cooperative foraging, non-cooperative foraging, and non-foraging. Non-foraging included behavioral states of travelling, socializing, and resting as well as all behavior.
+After all data was collected, they ran many different tests and analyses to come to the conclusion that “behavioral specializations can define social affiliations and shape animal social structures.”  
+#### c. the type of data that are available to you: 4 separate .csv files  
+1. Format:  
+a. Matrix of photo-identification protocols
+b. Matrix with home rang overlap values
+c. Matrix of covariables of 52 photo-identified individuals
+d. Matrix with pairwise genetic relatedness  
+2. Size:
+a. 17.09 Kb
+b. 4.996 Kb
+c. 1.157 Kb
+d. 1.261 Kb  
+3. Are there any inconsistencies in the data files? Is there anything that looks problematic?
+No inconsistencies within the data files. The only thing that seems problematic is that it is going to be a lot of information and this will be a very difficult project.
+4. What does the data represent about the biology?
+Identification, relatedness, foraging behavioral traits
+
+**Now for the substance of the project**: Define and describe an analysis that YOU want to do with the data. This could be (i) repeating an analysis from the paper (as long as the authors did NOT give code that you are simply re-running ;-) ), (ii) doing something new that the authors didn't do, or (iii) a combination of the two. Hence, **you should formulate a question**, and **your challenge statement should address both the biological elements of the question and the computational challenge involved**.
+
+I would like to repeat the analysis from the paper since they have not given ANY codes they used to reach their conclusions. It’s a lot of information and will be very challenging to hopefully reach the same results they have.  Will their social preferences, social division, foraging assortativity, and ranging assortativity come to the same results? Does the dolphin relatedness and foraging behavioral traits establish a social structure?
+
+
+Machado, A. M., Cantor, M., Costa, A. P., Righetti, B. P., Bezamat, C., Valle-Pereira, J. V., . . . Daura-Jorge, F. G. (2019). Homophily around specialized foraging underlies dolphin social preferences. _Biology Letters,_ _15_(4), 20180909. doi:10.1098/rsbl.2018.0909 Retrived from 
+[https://royalsocietypublishing.org/doi/full/10.1098/rsbl.2018.0909](https://royalsocietypublishing.org/doi/full/10.1098/rsbl.2018.0909)
+
+S., A. M., Machado, Cantor, B., A. P., H., B. P., Righetti, . . . V., P. (2019, March 19). Data from: Homophily around specialized foraging underlies dolphin social preferences. Retrieved from 
+[https://datadryad.org/resource/doi:10.5061/dryad.20vd145](https://datadryad.org/resource/doi:10.5061/dryad.20vd145)
+
+
