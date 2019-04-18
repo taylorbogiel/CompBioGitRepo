@@ -1,4 +1,5 @@
 #Lab 11
+setwd("C:/Users/user/Desktop/School/Spring_2019/Computational_Biology/compBioSandbox/newGitRepo/Labs/Lab11")
 library("tidyverse")
 library("dplyr")
 library("ggplot2")
@@ -33,4 +34,20 @@ tail(MF, n = 8)
 head(MF, n = 8)
 #Caricaceae, Paulowniaceae, Moringaceae, Hernandiaceae, Bixaceae, Muntingiaceae, Datiscaceae, Tetramelaceae
 
-#Part 3 - 
+#Part 3 - Plotting
+#step 7 - plotting densities of most and least dense families with facets
+  #make two figures using ggplot combined with the results of multiple previous problems
+#Densities of individual species from the families with the highest average densities
+#use step 6c to create a vector for the 8 families with the highest densities
+Top8 <- tail(MF, n = 8)
+#arrange them from highest to lowest
+Top8.1 <- arrange(Top8, desc(meanDiff))
+
+ggplot(Top8.1, aes(Family, meanDiff)) + geom_boxplot() + facet_wrap(facets = ~Family, scale = "free")
+  #This is not giving the actual boxplots, need to figure this out
+#Densities of individual species from the families with the lowest average densities
+#use step 6c to create a vector for the 8 families with the lowest densities
+Bottom8 <- head(MF, n = 8)
+
+ggplot(Bottom8, aes(Family, meanDiff)) + geom_boxplot() + facet_wrap(facets = ~Family, scale = "free")
+  #This is not giving the actual boxplots, need to figure this out
