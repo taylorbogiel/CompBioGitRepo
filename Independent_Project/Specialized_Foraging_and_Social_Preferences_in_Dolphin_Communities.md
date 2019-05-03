@@ -62,6 +62,12 @@ I thought about designing a function to  streamline developing tables for each S
 I found that confidence intervals between home range overlap values and frequency intervals were highest in the cooperative foraging behavior, and equal for all other behaviors. The confidence intervals overall were very close in each instance. Confidence intervals between IDs and frequency intervals, and IDs and home range overlap values were also very similar. Although I used a much smaller sample size by not randomizing the data 20,000 times, this seems to correspond with the rejection of the null hypothesis that dolphins associate randomly in situations other than cooperative foraging. They most often grouped with others with similar frequency intervals and similar home range values.
 
 ![AB_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/AB_Matrix.PNG "AB_Matrix")
+
+
 ![CF_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/CF_Matrix.PNG "CF_Matrix")
+
+
 ![NCF_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/NCF_Matrix.PNG "NCF_Matrix")
+
+
 ![NF_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/NF_Matrix.PNG "NF_Matrix")
