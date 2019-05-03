@@ -28,8 +28,7 @@ Machado, A. M. S., M. Cantor, A. P. B. Costa, B. P. H. Righetti, C. Bezamat, J. 
 
 Machado, A. M. S., M. Cantor, A. P. B. Costa, B. P. H. Righetti, C. Bezamat, J. V. S. Valle-Pereira, P. C. Simões-Lopes, P. V. Castilho, and F. G. Daura-Jorge. 2019. “Supplementary Lab and Stat Methods from Homophily Around Specialized Foraging Underlies Dolphin Social Preferences”. The Royal Society. [https://doi.org/10.6084/m9.figshare.7893047.v1](https://doi.org/10.6084/m9.figshare.7893047.v1)
 
-S., Alexandre Marcel, Machado, Cantor, Ana Paula B., Barbara P. H., Righetti, Jo, and Pedro V. 2019. "Data From: Homophily around Specialized Foraging Underlies Dolphin Social Preferences." Dryad.  
-[https://doi.org/10.5061/dryad.20vd145](https://doi.org/10.5061/dryad.20vd145)
+S., Alexandre Marcel, Machado, Cantor, Ana Paula B., Barbara P. H., Righetti, Jo, and Pedro V. 2019. "Data From: Homophily around Specialized Foraging Underlies Dolphin Social Preferences." Dryad. [https://doi.org/10.5061/dryad.20vd145](https://doi.org/10.5061/dryad.20vd145)
 
 ##### What the original authors did with the data:
 
@@ -37,7 +36,7 @@ They used this data coupled with genetic samples to test for social preferences,
 
 Once all results were analyzed, the original authors came to the conclusion to reject their null hypothesis that dolphins associate randomly in circumstances other than cooperative foraging. Their key finding was that even in situations outside of cooperative foraging, dolphins have a strong affiliation for peers who are similar.
 
-![Expected_Results](https://drive.google.com/open?id=1CsEckpt93atVCUypNqvhh7beB9T-aW8Y)
+![Expected_Results](https://ibb.co/cFbck52 "Expected_Results")
 
 ##### What  _YOU_  did with the data and how you did it:
 
@@ -62,7 +61,7 @@ I thought about designing a function to  streamline developing tables for each S
 
 I found that confidence intervals between home range overlap values and frequency intervals were highest in the cooperative foraging behavior, and equal for all other behaviors. The confidence intervals overall were very close in each instance. Confidence intervals between IDs and frequency intervals, and IDs and home range overlap values were also very similar. Although I used a much smaller sample size by not randomizing the data 20,000 times, this seems to correspond with the rejection of the null hypothesis that dolphins associate randomly in situations other than cooperative foraging. They most often grouped with others with similar frequency intervals and similar home range values.
 
-![AB_Matrix](https://drive.google.com/file/d/1CxYRaLTn7PyNr4W605vz37jtCqcdxIal/view?usp=sharing)
-![CF_Matrix](https://drive.google.com/file/d/1HOkr6aWhMIeNyy0SiPzpsZa6mtzlPtLx/view?usp=sharing)
-![NCF_Matrix](https://drive.google.com/open?id=18uDXkkGVXFdAd5mciSrp9LA-yQvUIlm3)
-![NF_Matrix](https://drive.google.com/open?id=1l-iDe7KY1g4Sjxzs6iGUoqEL6qufzl8R)
+![AB_Matrix](https://ibb.co/m6kHqds "AB_Matrix")
+![CF_Matrix](https://ibb.co/MNG3YbC "CF_Matrix")
+![NCF_Matrix](https://ibb.co/BcWWPPh "NCF_Matrix")
+![NF_Matrix](https://ibb.co/3dQDWfJ "NF_Matrix")
