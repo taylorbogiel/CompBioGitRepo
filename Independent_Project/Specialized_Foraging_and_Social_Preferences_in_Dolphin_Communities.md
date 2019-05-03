@@ -1,15 +1,15 @@
 ﻿# Specialized Foraging and Social Preferences within Dolphin Communities
-### Biological question
+## Biological question
 
 The central research question my project addressed: How does dolphin relatedness and foraging behavioral traits establish social structure?
 
-### Context (introduction)
+## Context (introduction)
 
 This study was done to see how social structures could be determined based on foraging approaches. By analyzing social animals, such as bottle nose dolphins, monitoring different foraging tactics and cooperation with local fishermen could quantify the development of social status within their community. By observing different foraging techniques and the social hierarchy within each group of dolphins, the status of each individual and their role within the group could be determined based on whether they cooperated not only one another, but with a different species from their own entirely.
 
-### Methods
+## Methods
 
-##### The source of the data:
+### The source of the data:
 
 The original authors of this study started by creating a photo-identification system with an identification number, the sampling period, presence or absence of calves, behavioral state, and cooperative foraging behavior. Once groups were identifiable, they were assigned to behavioral contexts: cooperative foraging, non-cooperative foraging, and non-foraging. Non-foraging included behavioral states of travelling, socializing, and resting as well as all behavior. They calculated home range overlap values and frequency of participation. 
 
@@ -30,15 +30,16 @@ Machado, A. M. S., M. Cantor, A. P. B. Costa, B. P. H. Righetti, C. Bezamat, J. 
 
 S., Alexandre Marcel, Machado, Cantor, Ana Paula B., Barbara P. H., Righetti, Jo, and Pedro V. 2019. "Data From: Homophily around Specialized Foraging Underlies Dolphin Social Preferences." Dryad. [https://doi.org/10.5061/dryad.20vd145](https://doi.org/10.5061/dryad.20vd145)
 
-##### What the original authors did with the data:
+### What the original authors did with the data:
 
 They used this data coupled with genetic samples to test for social preferences, social division, and assortativity around the simple-ratio indexes (SRI) of all behaviors, cooperative foraging, non-cooperative foraging, and non-foraging. After evaluating a randomized distribution of regression coefficients they used generalized affiliation incices (GAI) to adjust the devience residuals.
 
 Once all results were analyzed, the original authors came to the conclusion to reject their null hypothesis that dolphins associate randomly in circumstances other than cooperative foraging. Their key finding was that even in situations outside of cooperative foraging, dolphins have a strong affiliation for peers who are similar.
 
 ![Expected_Results](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/Expected_results.jpg "Expected_Results")
+**Expected_Results above**
 
-##### What  _YOU_  did with the data and how you did it:
+### What  _YOU_  did with the data and how you did it:
 
 Verbally describe what your approach was and how you achieved it. You don't need to include code here; rather, the goal is to give the reader an idea of what your code does and why and how it does it. Don't give the results here, though. Throughout this section, strive to be crystal clear about which things the original authors did and which things you did. Saying "this study" is ambiguous in that regard, so make it clear.
 
@@ -57,17 +58,18 @@ Error in x[, , i] <- as.matrix(formula[[x_names[i]]]) :
 I thought about designing a function to  streamline developing tables for each SRI, but the number of inputs varied between SRIs causing it to be more complex than creating individualized matrices. Instead, once the matrices were created, I created a function for corr.test to return confidence intervals, and probability for each matrix
 
 
-### Results and conclusions
+## Results and conclusions
 
 I found that confidence intervals between home range overlap values and frequency intervals were highest in the cooperative foraging behavior, and equal for all other behaviors. The confidence intervals overall were very close in each instance. Confidence intervals between IDs and frequency intervals, and IDs and home range overlap values were also very similar. Although I used a much smaller sample size by not randomizing the data 20,000 times, this seems to correspond with the rejection of the null hypothesis that dolphins associate randomly in situations other than cooperative foraging. They most often grouped with others with similar frequency intervals and similar home range values.
 
 ![AB_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/AB_Matrix.PNG "AB_Matrix")
-
+**AB_Matrix above**
 
 ![CF_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/CF_Matrix.PNG "CF_Matrix")
-
+**CF_Matrix above**
 
 ![NCF_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/NCF_Matrix.PNG "NCF_Matrix")
-
+**NCF_Matrix above**
 
 ![NF_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/NF_Matrix.PNG "NF_Matrix")
+**NF_Matrix above**
