@@ -36,7 +36,7 @@ They used this data coupled with genetic samples to test for social preferences,
 
 Once all results were analyzed, the original authors came to the conclusion to reject their null hypothesis that dolphins associate randomly in circumstances other than cooperative foraging. Their key finding was that even in situations outside of cooperative foraging, dolphins have a strong affiliation for peers who are similar.
 
-![Expected_Results](https://ibb.co/cFbck52 "Expected_Results")
+![Expected_Results](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/Expected_results.jpg "Expected_Results")
 
 ##### What  _YOU_  did with the data and how you did it:
 
@@ -61,7 +61,7 @@ I thought about designing a function to  streamline developing tables for each S
 
 I found that confidence intervals between home range overlap values and frequency intervals were highest in the cooperative foraging behavior, and equal for all other behaviors. The confidence intervals overall were very close in each instance. Confidence intervals between IDs and frequency intervals, and IDs and home range overlap values were also very similar. Although I used a much smaller sample size by not randomizing the data 20,000 times, this seems to correspond with the rejection of the null hypothesis that dolphins associate randomly in situations other than cooperative foraging. They most often grouped with others with similar frequency intervals and similar home range values.
 
-![AB_Matrix](https://ibb.co/m6kHqds "AB_Matrix")
-![CF_Matrix](https://ibb.co/MNG3YbC "CF_Matrix")
-![NCF_Matrix](https://ibb.co/BcWWPPh "NCF_Matrix")
-![NF_Matrix](https://ibb.co/3dQDWfJ "NF_Matrix")
+![AB_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/AB_Matrix.PNG "AB_Matrix")
+![CF_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/CF_Matrix.PNG "CF_Matrix")
+![NCF_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/NCF_Matrix.PNG "NCF_Matrix")
+![NF_Matrix](https://github.com/taylorbogiel/CompBioGitRepo/blob/master/Independent_Project/NF_Matrix.PNG "NF_Matrix")
