@@ -42,8 +42,6 @@ Once all results were analyzed, the original authors came to the conclusion to r
 
 ### What  _YOU_  did with the data and how you did it:
 
-Verbally describe what your approach was and how you achieved it. You don't need to include code here; rather, the goal is to give the reader an idea of what your code does and why and how it does it. Don't give the results here, though. Throughout this section, strive to be crystal clear about which things the original authors did and which things you did. Saying "this study" is ambiguous in that regard, so make it clear.
-
 Initially, I intended to attempt to reproduce the results that Machado et al came to, but discovered very quickly that I could not properly manipulate the mrqap function the authors discussed. The closest I ended up with was: 
 ```
 SRI_AB <- mrqap.dsp(SRI ~ SRI$Freq_Int + SRI$HR, 
